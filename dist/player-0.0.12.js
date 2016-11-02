@@ -1,11 +1,11 @@
-/*! Player.js - v0.0.12 - 2016-10-26
+/*! Player.js - v0.0.12 - 2016-11-02
 * http://github.com/embedly/player.js
 * Copyright (c) 2016 Embedly; Licensed BSD */
-(function(window, document){
+(function(window){
 var playerjs = {};
 
 playerjs.DEBUG = false;
-playerjs.VERSION = '0.0.11';
+playerjs.VERSION = '0.0.12';
 playerjs.CONTEXT = 'player.js';
 playerjs.POST_MESSAGE = !!window.postMessage;
 
@@ -1184,4 +1184,4 @@ playerjs.VideoJSAdapter.prototype.ready = function(){
   } else {
     window.playerjs = playerjs;
   }
-})(window, document);
+})(window);
